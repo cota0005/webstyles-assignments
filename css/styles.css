@@ -164,3 +164,71 @@ h2{
    }
 
    /*the last one won, source order is easier to understand than specificity, so it is better to use source order to control the cascade than specificity*/
+
+   /*week 5*/
+
+ header{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+ }  
+
+ .trail-list{
+   display:flex;
+   gap: 20px; 
+   list-style-type: none;
+   padding: 0;
+ }
+
+ .trail-list a:hover{
+   background-color: #dce8dc;
+ }
+
+ .trail-list a:focus{
+   outline: 3px solid #1b4332;
+ }
+
+ .card-container{
+   display:flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+ }
+
+ .card{
+   background-color: #dce8dc;
+   border-radius: 12px;
+   padding: 20px;
+   max-width: 100%;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   flex: 1;
+   flex-basis: 220px;
+ }
+
+ .card:hover{
+   background-color: #c8e6c9;
+ }
+
+ .card:focus-within{
+   outline: 3px solid #1b4332;
+   outline-offset: 3px;
+ } 
+
+ img{
+   max-width: 100%;
+   height: auto;
+   border-radius: 8px;
+ }
+
+ .center-box{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 150px;
+ }
+
+ .wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+ }
